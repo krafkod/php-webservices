@@ -1,0 +1,22 @@
+{
+    "name": "hussaini/php-webservices",
+    "description": "HTTP client wrapper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hussaini Zulkifli",
+            "email": "hussaini.zulkifli@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hussaini\\WebServices\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}

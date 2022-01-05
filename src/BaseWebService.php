@@ -54,9 +54,9 @@ abstract class BaseWebService
             ];
         }
 
-        $headers = $this->parseHeaders($response->getHeaders());
+        $headers = $this->parseHeaders($response->getHeaders() ?? []);
         $status_code = $response->getStatusCode();
-        $body = $this->parseContent($response->getBody()->getContents(), $headers['Content-Type']);
+        $body = $this->parseContent($response->getBody()->getContents(), $headers['Content-Type'] ?? '');
 
         return [
             'body' => $body,

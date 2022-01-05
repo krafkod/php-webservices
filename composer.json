@@ -1,22 +1,22 @@
 {
-    "name": "hussaini/php-webservices",
-    "description": "HTTP client wrapper",
+    "name": "krafkod/php-webservices",
+    "description": "A simple wrapper for HTTP client ",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Hussaini Zulkifli",
-            "email": "hussaini.zulkifli@gmail.com"
+            "email": "hussaini@krafkod.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Hussaini\\WebServices\\": "src/"
+            "KrafKod\\WebServices\\": "src/"
         }
     },
     "minimum-stability": "dev",
     "require": {
-        "php": ">=7.4",
+        "php": "^7.4|^8.0",
         "guzzlehttp/guzzle": "^7.0"
     }
 }

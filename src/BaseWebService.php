@@ -1,6 +1,6 @@
 <?php
 
-namespace Hussaini\WebServices;
+namespace KrafKod\WebServices;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;

@@ -1,6 +1,6 @@
 {
     "name": "krafkod/php-webservices",
-    "description": "A simple wrapper for HTTP client ",
+    "description": "A simple wrapper for HTTP client",
     "type": "library",
     "license": "MIT",
     "authors": [
